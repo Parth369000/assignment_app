@@ -6,7 +6,9 @@ A mobile application built with Flutter that fetches data from a public REST API
 
 [Watch App Demo](assets/assignment_video.mp4)
 
-<video src="./assets/assignment_video.mp4" controls="controls" style="max-width: 600px;">
+<video width="320" height="240" controls autoplay muted loop>
+  <source src="assets/assignment_video.mp4" type="video/mp4">
+  Your browser does not support the video tag. <a href="assets/assignment_video.mp4">Click here to watch</a>
 </video>
 
 ## Features
