@@ -9,7 +9,9 @@ class PostListScreen extends GetView<PostController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Products')),
+      appBar: AppBar(
+          forceMaterialTransparency: true,
+          title: const Text('Products')),
       body: GetBuilder<PostController>(
         builder: (controller) {
           // Initial Loading State (Show full screen loader only if list is empty)
