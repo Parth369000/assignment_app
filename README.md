@@ -6,7 +6,7 @@ A mobile application built with Flutter that fetches data from a public REST API
 
 [Watch App Demo](assets/assignment_video.mp4)
 
-<video src="assets/assignment_video.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
+<video src="assets/assignment_video.mp4" controls="controls" autoplay="autoplay" loop="loop" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
 </video>
 
 ## Features
