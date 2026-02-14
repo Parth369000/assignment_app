@@ -75,13 +75,14 @@ class PostController extends GetxController {
         if (page > 1) page--;
         Get.snackbar(
           'Error',
-          'Could not load more items: ${e.toString()}',
+          'No Internet Connection Available',
           snackPosition: SnackPosition.BOTTOM,
           backgroundColor: Colors.redAccent,
           colorText: Colors.white,
           duration: const Duration(seconds: 3),
         );
       }
+
       debugPrint('Error fetching posts: $e');
     } finally {
       isLoading = false;
